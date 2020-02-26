@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://kit.fontawesome.com/59b9fc1090.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>STS snir</title>
+</head>
+<body>
+ <header>
+    <nav>
+        <ul>
+         <li><a href="#"><img class="logo" src="images/Logo2.png"><i class="fas fa-desktop"></i></a></li>   
+         <li>          
+            <form class="search" method="post" action="traitement.php">
+                <div class="placeholder">
+                    <input class="recherche" placeholder="Saisir votre recherche"type="text" />
+                    <button class="glass">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <select name="components" class="components">
+                    <option value="">--Votre produit--</option>
+                    <option value="ordinateur">Ordinateur</option>
+                    <option value="processeur">Processeur</option>
+                    <option value="cartes-meres">Cartes mère</option>
+                    <option value="cartes-graphiques">Cartes graphiques</option>
+                    <option value="claviers">Claviers</option>
+                    <option value="souris">Souris</option>
+                    <option value="Ecouteurs">Ecouteurs</option>
+                    <option value="Enceinte">Enceinte</option>
+                    <option value="cables">Câbles</option>
+                    <option value="3D">Imprimantes 3D</option>
+                </select>
+            </form>
+        </li>
+
+         <li>
+             <a class="client" href="#">
+                 Client
+                 <i class="fas fa-hands-helping"></i>
+                 <div class="service">
+                    Panier <i class="fas fa-shopping-cart"></i><br><br><br>
+                    Contact<i class="fas fa-at"></i><br><br><br>
+                    FAQ <i class="fas fa-question"></i><br><br><br>
+                </div>
+             </a>
+        </li> 
+
+         <li>
+             <a class="login-link" href="#">
+                  Compte
+                 <i class="fas fa-portrait"></i>
+                 <div class="login">
+                     Identifiez vous <i class="fas fa-user-plus"></i> <br><br><br>
+                     Connexion <i class="fas fa-sign-in-alt"></i><br>
+                 </div>
+            </a>
+            </li> 
+        </ul>
+    </nav>    
+ </header>   
+ <section class="banniere">
+
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->        
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slide-1">
+                <div class="texte">
+                    <h1>Sacrée offre</h1>
+                    <div class="soustexte">A ne pas manquer</div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-2">
+            </div>
+            <div class="swiper-slide slide-3">
+                <div class="texte">
+                    <h1>OMGGG</h1>
+                    <div class="soustexte">Même après Nöel</div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+ </section>
+ <div class="content">
+ <section class="presentation">
+    <p class=intro></p> 
+
+</section>
+ <aside>
+    <div class="diponibilite">
+        <h2>Cabinet dentaire :</h2>
+        <p>1 Rue Raymond Corraze, 31500 Toulouse</p> </br>
+   <strong><div class="horaires">Horaires du cabinet :</div> </strong> 
+        <table>
+            <tr>
+                <th>Lundi</th>
+                <td>9h-12h</td>
+                <td>14h-18h</td>
+            </tr>
+
+            <tr>
+                <th>Mardi</th>
+                <td>9h-12h</td>
+                <td>14h-18h</td>
+            </tr>
+
+            <tr>
+                <th>Mercredi</th>
+                <td>9h-12h</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th>Jeudi</th>
+                <td>9h-12h</td>
+                <td>14h-18h</td>
+            </tr>
+
+            <tr>
+                <th>Vendredi</th>
+                <td>9h-12h</td>
+                <td>14h-18h</td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="informations">
+        <h2>Praticien</h2>
+        <img src="https://via.placeholder.com/150"/>
+        <strong><p class="formation">Formation:</p></strong>
+    </div>
+ </aside>
+</div>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
